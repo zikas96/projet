@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.2
+- 2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: noNIyaMMCAM0UIOmU2/hlUPcyB2KfwtDAfRays2RH282xDi3yrdrVcqw9uhqWvQJwR5V9tLTSDnFWSnBDpNirBal25XAv5tAcQ8hdEuxUKvF3yHKlrKFiaXctJ5wChvoozT2SghNc0bdxlcMwXBNix49mt1CCMKxJvK/rBWHaW9G6lslhnbQqo0En58Me9u/AQMyjIPiKvhYNkea7g5UjTaq2RURFZ1K9eFtPb3KOWUeuxXlYLaovzudfFc8JM8Mu+qLSJvhhsZknFpDcgrsnlyzEqjswdIKWsUjePHJ7hgUXYSv1ZQePVrnis7x4eswkPQoTGRFW7dtfEuWEdyv4K0LqARwNGuQDhQWKjXfOlYI7kdYevjHULq/cgoZxw762yqOrqWURnWfrV8fDxO302EaUO9OEE/PFOURWe5THWGRM0G560xt4xjod0Etv+Ln5ksOUdSNLB/Qi9IzrrROcYBJaPCAuXtwH7qhxeUrzK+1JIa1xJHHZkF6HDX+fifzIis3MYFgGzaanC4ElqZsf/k1vt4RbYPozjW8qu+8fU6uSMzFycOf6ZDAOeTGpnx1wpK0LLiM4i2B2obznADlw0M2pjvZJShViop/Hg58JfiwzX0qSZCARAka9aPnNQw0UOTodYGO50fuOZ1qXFGiv1DG9Ri6NdBfnYzkEZImt24=
+  app: evening-anchorage-83645
+  on:
+    repo: zikas96/projet
