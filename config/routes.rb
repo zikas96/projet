@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
 
-  get 'pages/home'
+  #get 'pages/home'
   #root 'pages#home'
 get 'users/index' 
   root 'users#index'
