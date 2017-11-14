@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
 
+  resources :students
+
   get 'users/index'
 root 'users#index'
 
